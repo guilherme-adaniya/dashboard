@@ -1,0 +1,210 @@
+h1 {
+    align-content: center !important;
+    display: inline;
+  }
+  
+  h3,
+  h4 {
+    display: block;
+    text-align: right;
+    padding-right: 10vw;
+  }
+  
+  nav a {
+    font-weight: bold !important;
+  }
+  
+  nav {
+    position: fixed !important;
+    top: 0 !important;
+    font-size: 1em !important;
+    height: 5em !important;
+    padding-left: 5% !important;
+    text-align: left;
+  }
+  
+  .nav-mobile {
+    font-size: 1em !important;
+    height: 4em !important;
+    text-align: left;
+  }
+  .sidenav {
+    z-index: 1012 !important;
+    background-image: linear-gradient(120deg, #0277bd 50%, #01579b 50%, #0288d1 20%);
+    color: white !important;
+  }
+  
+  section#inicio {
+    margin-top: 5% !important;
+  }
+  
+  .table-of-contents a.active,
+  .table-of-contents a.active:hover {
+    color: white !important;
+    border-left: 3px solid #90caf9 !important;
+    padding-left: 16px !important;
+    font-size: 1.5em;
+  }
+  
+  .table-of-contents a:hover {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .table-of-contents a {
+    color: #90caf9 !important;
+    background: none !important;
+    border: none !important;
+    padding-left: 15px;
+    font-size: 1em;
+  }
+  
+  .justify {
+    text-align: justify !important;
+  }
+  
+  .container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .container-menu {
+    padding-bottom: 10%;
+  }
+  
+  blockquote {
+    border-left: 7px solid #90caf9;
+    margin-bottom: 10% !important;
+    font-size: 0.8em !important;
+    line-height: 10px;
+  }
+  
+  .sobre2 {
+    background-image: url(../img/backgroundsite.png);
+  }
+  
+  .div-sobre {
+    display: inline;
+    position: relative;
+    text-align: center;
+  }
+  
+  section.section {
+    padding-top: 0 !important;
+  }
+  body {
+    /* background-image: linear-gradient(100deg, #0277bd 5%, #01579b 20%, #0288d1 75%); */
+    /* background-image: url(../img/start.jpg); */
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+  }
+  
+  button{
+    text-transform: unset !important;
+    font-size: 21px !important;
+  }
+  
+  .collapsible-body {
+    background: white !important;
+  }
+  
+  .button-image {
+    top: 12%;
+    cursor: default;
+    display: inline-block;
+  }
+  
+  .card-panel {
+    position: relative;
+  }
+  
+  .card-title {
+    font-size: 1.7em;
+  }
+  
+  .panel-main {
+    position: relative;
+    bottom: 5em;
+    height: 100%;
+    padding: 5%;
+  }
+  
+  .card-main-title {
+    font-size: 2em;
+    margin-top: 0 !important;
+  }
+  
+  .card-main {
+    font-size: 1.3em;
+  }
+  
+  .rounded {
+    border-radius: 50%;
+    padding: 5%;
+  }
+  
+  /*----------------------------------------------------------- Section Contato ----------------------------------------------------------- */
+  
+  section#contato h2 {
+    margin: 5% !important;
+  }
+  
+  .contato {
+    /* background-color: #01579b; */
+    /* background-image: linear-gradient(141deg, #0277bd, #01579b 51%, #0288d1 75%); */
+    background-image: url(../img/backgroundsite.png);
+    display: grid !important;
+    padding: 3%;
+  }
+  
+  section#contato {
+    padding-bottom: 0 !important;
+  }
+  
+  /* Inputs */
+  
+  .input-field > input[type="email"] {
+    border: #4dabf7 solid 1px !important;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white !important;
+  }
+  
+  input[type="email"]:focus {
+    border-color: #4dabf7 !important;
+    outline: none !important;
+    -webkit-box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.0125), 0 0 8px rgba(118, 132, 255, 0.5) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125), 0 0 8px rgb(42, 72, 241) !important;
+  }
+  
+  input[type="text"] {
+    border: 1px solid !important;
+    border-color: #1976d2 !important;
+    border-radius: 7px !important;
+    color: grey !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  input[type="text"]:focus {
+    border: 1px solid !important;
+    box-shadow: 0 0 6px -2px #64b5f6  !important;
+    border-color: #64b5f6  !important;
+    outline: none !important;
+    background: rgba(0, 0, 0, 0.5);
+    transition: box-shadow .1s ease-in,border .1s ease-in !important;
+  }
+  
+  .share-buton {
+    display: inline-block !important;
+    font-size: 3em !important;
+    margin-right: 5% !important;
+  }
+  .share-buton a:hover{
+    color: #01579b !important;
+  }
+  .share-buton > a {
+    color: #000000 !important;
+  }
+  
+  /*---------------------------------------------------

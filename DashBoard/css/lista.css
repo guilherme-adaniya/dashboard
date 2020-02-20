@@ -1,0 +1,25 @@
+.fotoIcon {
+    float: right;
+    font-size: 2em !important;
+}
+
+.card-panel {
+    margin-top: 10%;
+}
+
+.table-lista th:first-of-type {
+    width: 30%;
+}
+
+.table-lista th:nth-of-type(2) {
+    width: 40%
+}
+
+/* .table-lista th:nth-of-type(3) {
+    width: 30%
+} */
+
+.container {
+    width: 90%;
+}
+

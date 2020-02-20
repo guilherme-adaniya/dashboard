@@ -1,0 +1,526 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 740px) {
+    section#inicio {
+      margin-bottom: 35%;
+      margin-top: 0;
+    }
+  
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 25%, white 25%);
+    }
+    .fa-laptop-code {
+      font-size: 15vw !important;
+    }
+    h1 {
+      font-size: 15vw !important;
+      padding: 0 !important;
+    }
+    h2 {
+      font-size: 10vw !important;
+    }
+    h3 {
+      font-size: 8vw !important;
+    }
+    h4 {
+      font-size: 4vw !important;
+    }
+    h3,
+    h4 {
+      padding-right: 7vw;
+    }
+    input[type="email"] {
+      max-width: 70% !important;
+      font-size: 1.5em !important;
+      padding: 2vw !important;
+    }
+    #nav-desktop{
+      display: none !important;
+    }
+    section#inicio {
+      margin-top:3% !important;
+    }
+  }
+  
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px){
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 27%, white 5%);
+    }
+    .fa-laptop-code {
+      font-size: 15vw !important;
+    }
+    h1 {
+      font-size: 15vw !important;
+    }
+    h2 {
+      font-size: 13vw !important;
+    }
+    h3 {
+      font-size: 8vw !important;
+    }
+    h4 {
+      font-size: 4vw !important;
+    }
+    h3,
+    h4 {
+      padding-right: 7vw;
+    }
+    #nav-desktop{
+      display: none !important;
+    }
+  }
+  
+  /* (320x480) Smartphone, Portrait */
+  @media only screen and (device-width: 320px) and (orientation: portrait) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 30%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 15vw !important;
+    }
+    h1 {
+      font-size: 15vw !important;
+    }
+    h2 {
+      font-size: 9vw !important;
+    }
+    h3 {
+      font-size: 8vw !important;
+    }
+    h4 {
+      font-size: 6vw !important;
+    }
+    input[type="email"] {
+      max-width: 300px !important;
+      font-size: 5.5vw !important;
+      padding: 2vw !important;
+      padding-top: 2vw !important;
+      padding-bottom: 2vw !important;
+    }
+  }
+  
+  /* (320x480) Smartphone, Landscape */
+  @media only screen and (device-width: 480px) and (orientation: landscape) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 35%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 15vw !important;
+    }
+    h1 {
+      font-size: 15vw !important;
+    }
+    h2 {
+      font-size: 9vw !important;
+    }
+    h3 {
+      font-size: 8vw !important;
+    }
+    h4 {
+      font-size: 6vw !important;
+    }
+  }
+  
+  /* (480x800) Android */
+  @media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 35%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 15vw !important;
+    }
+    h1 {
+      font-size: 15vw !important;
+    }
+    h2 {
+      font-size: 9vw !important;
+    }
+    h3 {
+      font-size: 8vw !important;
+    }
+    h4 {
+      font-size: 4vw !important;
+    }
+    .about-content {
+      font-size: 4vw;
+    }
+  }
+  
+  /* (640x960) iPhone 4 & 4S */
+  
+  @media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 42%, white 20%);
+    }
+    .fa-laptop-code {
+      font-size: 10vw !important;
+    }
+    h1 {
+      font-size: 10vw !important;
+    }
+    h2 {
+      font-size: 8vw !important;
+    }
+    h3 {
+      font-size: 7vw !important;
+    }
+    h4 {
+      font-size: 4vw !important;
+    }
+    .about-content {
+      font-size: 4vw;
+    }
+  }
+  
+  /* (720x1280) Galaxy Nexus, WXGA */
+  
+  @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 45%, white 40%);
+    }
+    .fa-laptop-code {
+      font-size: 10vw !important;
+    }
+    h1 {
+      font-size: 10vw !important;
+    }
+    h2 {
+      font-size: 8vw !important;
+    }
+    h3 {
+      font-size: 6vw !important;
+    }
+    h4 {
+      font-size: 4w !important;
+    }
+    .about-content {
+      font-size: 4vw;
+    }
+    h3,
+    h4 {
+      padding-right: 10vw;
+    }
+  }
+  
+  /* (720x1280) Galaxy Nexus, Landscape */
+  
+  @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 38%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 8vw !important;
+    }
+    h1 {
+      font-size: 8vw !important;
+    }
+    h2 {
+      font-size: 7vw !important;
+    }
+    h3 {
+      font-size: 3vw !important;
+    }
+    h4 {
+      font-size: 3w !important;
+    }
+    .about-content {
+      font-size: 3vw;
+    }
+    h3,
+    h4 {
+      padding-right: 7vw;
+    }
+    #nav-desktop{
+      display: none !important;
+    }
+  }
+  
+  /* (1024x768) iPad 1 & 2, XGA */
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 50%, white 40%);
+    }
+    .fa-laptop-code {
+      font-size: 10vw !important;
+    }
+    h1 {
+      font-size: 10vw !important;
+    }
+    h2 {
+      font-size: 8vw !important;
+    }
+    h3 {
+      font-size: 6vw !important;
+    }
+    h4 {
+      font-size: 4w !important;
+    }
+    .about-content {
+      font-size: 4vw;
+    }
+    input[type="email"] {
+      max-width: 80% !important;
+      font-size: 2em !important;
+      padding: 2vw !important;
+    }
+    #nav-desktop{
+      display: none !important;
+    }
+    section#inicio {
+      margin-top:10% !important;
+    }
+  }
+  
+  /* (768x1024) iPad 1 & 2, Portrait */
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    section#inicio {
+      margin-bottom: 25% !important;
+    }
+  
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 45%, white 40%);
+    }
+    .fa-laptop-code {
+      font-size: 10vw !important;
+    }
+    h1 {
+      font-size: 10vw !important;
+    }
+    h2 {
+      font-size: 8vw !important;
+    }
+    h3 {
+      font-size: 6vw !important;
+    }
+    h4 {
+      font-size: 4w !important;
+    }
+    .about-content {
+      font-size: 4vw;
+    }
+    h3,
+    h4 {
+      padding-right: 7vw;
+    }
+    #nav-desktop{
+      display: none !important;
+    }
+  }
+  
+  /* (1024x768) iPad 1 & 2, Landscape */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    section#inicio {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 43%, white 35%);
+    }
+    .fa-laptop-code {
+      font-size: 10vw !important;
+    }
+    h1 {
+      font-size: 10vw !important;
+    }
+    h2 {
+      font-size: 8vw !important;
+    }
+    h3 {
+      font-size: 6vw !important;
+    }
+    h4 {
+      font-size: 4w !important;
+    }
+    .about-content {
+      font-size: 3.4vw;
+    }
+  
+    input[type="email"] {
+      max-width: 70% !important;
+      font-size: 2em !important;
+      padding: 2vw !important;
+    }
+    section#inicio {
+      margin-top:10% !important;
+    }
+    #nav-desktop{
+      display: unset !important;
+    }
+    #nav-mobile{
+      display: none !important;
+    }
+  }
+  
+  
+  /* (2048x1536) iPad 3 */
+  
+  @media only screen and (min-device-width: 1500px) and (max-device-width: 2000px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 40%, white 40%);
+    }
+    .fa-laptop-code {
+      font-size: 13vw !important;
+    }
+    h1 {
+      font-size: 13vw !important;
+    }
+    h2 {
+      font-size: 7vw !important;
+    }
+    h3 {
+      font-size: 6vw !important;
+    }
+    h4 {
+      font-size: 4w !important;
+    }
+    #nav-desktop{
+      display: none !important;
+    }
+  }
+  
+  /* (1280x1024) SXGA Display (1366x768) WXGA Display */
+  
+  @media screen and (min-width: 1200px), (min-width: 1300px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 47%, white 20%);
+    }
+    .fa-laptop-code {
+      font-size: 8vw !important;
+    }
+    h1 {
+      font-size: 8vw !important;
+    }
+    h2 {
+      font-size: 6vw !important;
+    }
+    h3 {
+      font-size: 4vw !important;
+    }
+    h4 {
+      font-size: 2vw !important;
+    }
+    .about-content {
+      font-size: 2vw;
+    }
+    input[type="email"] {
+      max-width: 70% !important;
+      font-size: 2em !important;
+      padding: 1vw !important;
+    }
+    #nav-desktop{
+      display: unset !important;
+    }
+  }
+  
+  /* (1440x900) WXGA+ Display */
+  
+  @media screen and (min-width: 1400px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 50%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 8vw !important;
+    }
+    h1 {
+      font-size: 8vw !important;
+    }
+    h2 {
+      font-size: 6vw !important;
+    }
+    h3 {
+      font-size: 4vw !important;
+    }
+    h4 {
+      font-size: 2vw !important;
+    }
+    .about-content {
+      font-size: 2vw;
+    }
+    h3,
+    h4 {
+      padding-right: 7vw;
+    }
+  }
+  
+  /* (1680x1050) WSXGA+ Display */
+  
+  @media screen and (min-width: 1600px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 30%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 10vw !important;
+    }
+    h1 {
+      font-size: 10vw !important;
+    }
+    h2 {
+      font-size: 8vw !important;
+    }
+    h3 {
+      font-size: 6vw !important;
+    }
+    h4 {
+      font-size: 4vw !important;
+    }
+    .about-content {
+      font-size: 4vw;
+    }
+  }
+  
+  /* (1920x1080) Full HD Display */
+  
+  @media screen and (min-width: 1900px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 55%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 5vw !important;
+    }
+    h1 {
+      font-size: 5vw !important;
+    }
+    h2 {
+      font-size: 3vw !important;
+    }
+    h3 {
+      font-size: 2vw !important;
+    }
+    h4 {
+      font-size: 1vw !important;
+    }
+    .about-content {
+      font-size: 1vw;
+    }
+    h3,
+    h4 {
+      padding-right: 7vw;
+    }
+  }
+  
+  /* (1600x900) HD+ Display */
+  
+  @media screen and (min-width: 1600px) {
+    .half-color-section {
+      background: linear-gradient(to bottom, #1e88e5 55%, white 30%);
+    }
+    .fa-laptop-code {
+      font-size: 5vw !important;
+    }
+    h1 {
+      font-size: 5vw !important;
+    }
+    h2 {
+      font-size: 3vw !important;
+    }
+    h3 {
+      font-size: 2vw !important;
+    }
+    h4 {
+      font-size: 1.5vw !important;
+    }
+    .about-content {
+      font-size: 1.5vw;
+    }
+  }
